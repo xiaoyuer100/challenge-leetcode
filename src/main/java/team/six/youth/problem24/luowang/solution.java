@@ -1,3 +1,6 @@
+package team.six.youth.problem24.luowang;
+
+import team.six.youth.problem24.ListNode;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
