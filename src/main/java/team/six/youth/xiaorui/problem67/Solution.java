@@ -14,7 +14,6 @@ public class Solution {
         int int_a;
         int int_b;
         int carry = 0;
-        Stack<Integer> stack = new Stack<>();
         while(a_index>=0||b_index>=0){
             int_a = a_index >= 0?a.charAt(a_index--)-'0':0;
             int_b = b_index >= 0?b.charAt(b_index--)-'0':0;
