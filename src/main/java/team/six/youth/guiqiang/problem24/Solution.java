@@ -1,6 +1,6 @@
-package team.six.youth.problem24.guiqiang;
+package team.six.youth.guiqiang.problem24;
 
-import team.six.youth.problem24.ListNode;
+import team.six.youth.util.ListNode;
 
 /**
  * Definition for singly-linked list.

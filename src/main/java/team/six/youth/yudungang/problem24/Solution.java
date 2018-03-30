@@ -1,6 +1,6 @@
-package team.six.youth.problem24.yudungang;
+package team.six.youth.yudungang.problem24;
 
-import team.six.youth.problem24.ListNode;
+import team.six.youth.util.ListNode;
 
 /**
  * Created by yudungang on 2018/3/28 0028.

@@ -1,6 +1,6 @@
-package team.six.youth.problem24.xiaorui;
+package team.six.youth.xiaorui.problem24;
 
-import team.six.youth.problem24.ListNode;
+import team.six.youth.util.ListNode;
 
 public class Solution {
     public ListNode swapPairs(ListNode head) {
