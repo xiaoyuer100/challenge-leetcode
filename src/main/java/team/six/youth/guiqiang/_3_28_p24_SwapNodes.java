@@ -1,4 +1,4 @@
-package team.six.youth.guiqiang.problem24;
+package team.six.youth.guiqiang;
 
 import team.six.youth.util.ListNode;
 
@@ -10,7 +10,7 @@ import team.six.youth.util.ListNode;
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class _3_28_p24_SwapNodes {
     public ListNode swapPairs(ListNode head) {
         if(head == null){
             return null;

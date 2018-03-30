@@ -1,11 +1,11 @@
-package team.six.youth.guiqiang.problem30;
+package team.six.youth.guiqiang;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution {
+public class _3_29_p30_Substring {
 	public List<Integer> findSubstring(String s, String[] words) {
 		List<Integer> retList = new ArrayList<Integer>();
 		if (s == null || s.equals("") || words.length == 0 || words == null) {

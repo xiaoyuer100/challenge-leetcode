@@ -1,6 +1,6 @@
-package team.six.youth.guiqiang.problem67;
+package team.six.youth.guiqiang;
 
-public class Solution {
+public class _3_30_p67_AddBinary {
 	public String addBinary(String a, String b) {
 		char[] ba = a.toCharArray();
 		char[] bb = b.toCharArray();
