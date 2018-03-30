@@ -1,11 +1,11 @@
-package team.six.youth.problem30.xiaorui;
+package team.six.youth.xiaorui.problem30;
 
 import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
-        ArrayList<Integer> results = new ArrayList<>();
+        ArrayList<Integer> results = new ArrayList<Integer>();
         int index[] = new int[words.length];
         int max[] = new int[words.length];
         int matched = 0;

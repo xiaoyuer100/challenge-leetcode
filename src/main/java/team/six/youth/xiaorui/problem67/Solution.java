@@ -1,4 +1,4 @@
-package team.six.youth.problem67.xiaorui;
+package team.six.youth.xiaorui.problem67;
 
 public class Solution {
     public static void main (String args[]){

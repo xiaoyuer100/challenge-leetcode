@@ -1,4 +1,4 @@
-package team.six.youth.problem30.yudungang;
+package team.six.youth.yudungang.problem30;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -8,16 +8,16 @@ import java.util.Set;
 public class Solution {
 
     public List<Integer> findSubstring(String s, String[] words) {
-        ArrayList<Integer> seccess = new ArrayList<>();
+        ArrayList<Integer> seccess = new ArrayList<Integer>();
         if (words == null || s == null || words.length == 0 || words.length * words[0].length() > s.length())
             return seccess;
 
-        Set<String> set = new HashSet<>();
+        Set<String> set = new HashSet<String>();
         for (String word : words) {
             set.add(word);
         }
 
-        ArrayList<String> attr = new ArrayList<>();
+        ArrayList<String> attr = new ArrayList<String>();
         for (String word : words) {
             attr.add(word);
             if (set.size() > 1 && s.replace(word, "").length() == 0) {
@@ -27,7 +27,7 @@ public class Solution {
         int length = words[0].length();
 
         int limit = (words.length - 1) * words[0].length();
-        ArrayList<String> succAttr = new ArrayList<>();
+        ArrayList<String> succAttr = new ArrayList<String>();
         for (int i = words[0].length() - 1; i < s.length(); i++) {
             String c = s.charAt(i) + "";
             boolean isContain = false;
@@ -35,7 +35,7 @@ public class Solution {
             for (String str : words) {
                 if (str.equals(pre)) {
                     if (succAttr.size() >= limit) {
-                        ArrayList<String> tempArr = new ArrayList<>(attr);
+                        ArrayList<String> tempArr = new ArrayList<String>(attr);
                         removeOne(tempArr, pre);
                         int preIndex = succAttr.size();
                         boolean succ = true;

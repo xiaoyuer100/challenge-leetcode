@@ -1,4 +1,4 @@
-package team.six.youth.problem30.guiqiang;
+package team.six.youth.guiqiang.problem30;
 
 import java.util.ArrayList;
 import java.util.HashMap;
