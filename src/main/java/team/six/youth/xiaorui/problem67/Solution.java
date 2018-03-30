@@ -1,4 +1,4 @@
-package team.six.youth.problem67.xiaorui;
+package team.six.youth.xiaorui.problem67;
 
 public class Solution {
     public static void main (String args[]){
@@ -6,36 +6,40 @@ public class Solution {
     }
 
     public String addBinary(String a, String b) {
-        StringBuilder sb = new StringBuilder();
+        char[] result = new char[Math.max(a.length(),b.length())+1];
+        int res_length = result.length -1;
+        result[0]='0';
         int a_index = a.length() - 1;
         int b_index = b.length() - 1;
-        Boolean bool_a = false;
-        Boolean bool_b = false;
+        boolean bool_a = false;
+        boolean bool_b = false;
         boolean carry = false;
         while(a_index>=0||b_index>=0){
-            bool_a = (a_index >= 0?a.charAt(a_index--)-'0':0)==1;
-            bool_b = (b_index >= 0?b.charAt(b_index--)-'0':0)==1;
-            sb.insert(0,((bool_a!=bool_b)&&(!carry) || (!(bool_a!=bool_b))&&carry)?1:0);       //r = !ab!c + a!b!c + !a!bc + abc
-            carry = bool_a&&bool_b || (bool_a!=bool_b)&&carry;                                  //c = c = !abc + a!bc + abc + ab!c
+            bool_a = (a_index == -1?false:a.charAt(a_index--)=='1');
+            bool_b = (b_index == -1?false:b.charAt(b_index--)=='1');
+            result[res_length--] = ((bool_a!=bool_b)&&(!carry) || (!(bool_a!=bool_b))&&carry)?'1':'0';       //r = !ab!c + a!b!c + !a!bc + abc
+            carry = bool_a&&bool_b || (bool_a!=bool_b)&&carry;                                                  //c = c = !abc + a!bc + abc + ab!c
         }
-        sb.insert(0,carry?1:"");
-        return sb.toString();
+        if(carry){
+            result[0]='1';
+        }
+        return String.copyValueOf(result,carry?0:1,carry?result.length:result.length-1);
     }
 }
 
 
 /**
-  *
-  *         ab
-  *  c
-  *
-  *      00	01	10	11
-  *  0	0	0	0	1
-  *  1	0	1	1	1           c = !abc + a!bc + abc + ab!c
-  *
-  *      00	01	10	11
-  *  0	0	1	1	0
-  *  1	1	0	0	1           r = !ab!c + a!b!c + !a!bc + abc
-  *
-  *
-  */
+ *
+ *         ab
+ *  c
+ *
+ *      00	01	10	11
+ *  0	0	0	0	1
+ *  1	0	1	1	1           c = !abc + a!bc + abc + ab!c
+ *
+ *      00	01	10	11
+ *  0	0	1	1	0
+ *  1	1	0	0	1           r = !ab!c + a!b!c + !a!bc + abc
+ *
+ *
+ */
