@@ -48,11 +48,6 @@ int main(){
         printf("char的前三位=%s\n",newstr);
         //判断新串是否在字符串数组里
        // int len=length; 
-        if (*mytype_ptr == NULL){
-       // s=s+3;
-        printf("=========anserwer=%d,%d,%d\n",point,strlen(s),i);
-        s=s+3;
-        }
         int myi=0;
         int myj=0;
         for (; *mytype_ptr != NULL;myi++,mytype_ptr++) {
@@ -70,6 +65,12 @@ int main(){
         temp=temp+3;
         break;
         }
+        if (*mytype_ptr == NULL){
+       // s=s+3;
+        printf("=========anserwer=%d\n",i);
+       // s=s+3;
+        }
+        i=i+3;
         temp=temp+3;
         }
     
