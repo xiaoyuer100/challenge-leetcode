@@ -1,5 +1,8 @@
 package team.six.youth.problem30.xiaorui;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         ArrayList<Integer> results = new ArrayList<>();
