@@ -1,5 +1,15 @@
 package team.six.youth.guiqiang;
 
+/**
+ * 
+Given two binary strings, return their sum (also a binary string).
+
+For example,
+a = "11"
+b = "1"
+Return "100".
+ *
+ */
 public class _3_30_p67_AddBinary {
 	public String addBinary(String a, String b) {
 		char[] ba = a.toCharArray();
