@@ -6,6 +6,7 @@
 
 2018-03-30 67 Add Binary
 
+2018-03-31 31 Next Permutation
 ```
 
 
