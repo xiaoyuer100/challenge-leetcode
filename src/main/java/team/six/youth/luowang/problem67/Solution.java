@@ -1,4 +1,6 @@
-class Solution {
+package team.six.youth.luowang.problem67;
+
+public class Solution {
     public String addBinary(String a, String b) {
         if(a==null || b==null) return null;
 
