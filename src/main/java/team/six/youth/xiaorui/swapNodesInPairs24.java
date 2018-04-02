@@ -1,8 +1,12 @@
-package team.six.youth.xiaorui.problem24;
+package team.six.youth.xiaorui;
 
 import team.six.youth.util.ListNode;
 
-public class Solution {
+public class swapNodesInPairs24{
+  
+}
+
+class Solution {
     public ListNode swapPairs(ListNode head) {
         ListNode temp;
         ListNode result;
@@ -12,7 +16,7 @@ public class Solution {
             return head;
         }
         result=head.next;
-        
+
         while(head!=null)
         {
             temp=head.next;
@@ -29,7 +33,7 @@ public class Solution {
             pre =head;
             head=head.next;
         }
-        
+
         return result;
     }
 }
