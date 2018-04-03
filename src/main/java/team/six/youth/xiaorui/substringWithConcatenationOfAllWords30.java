@@ -1,7 +1,11 @@
-package team.six.youth.xiaorui.problem30;
+package team.six.youth.xiaorui;
 
 import java.util.ArrayList;
 import java.util.List;
+
+public class substringWithConcatenationOfAllWords30{
+
+}
 
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
@@ -51,7 +55,7 @@ class Solution {
                     }
                 }
             }
-            
+
         }
         return results;
     }
