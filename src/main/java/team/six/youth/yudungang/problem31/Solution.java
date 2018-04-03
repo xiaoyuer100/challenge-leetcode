@@ -26,7 +26,7 @@ public class Solution {
             }
         }
         //反转数组
-        for(int j = 0; j <= length/2; j++){
+        for(int j = 0; j < length/2; j++){
             swap(nums,j,length-1-j);
         }
     }
