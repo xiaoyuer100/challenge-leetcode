@@ -9,10 +9,10 @@
 
 [2018-03-31 31 Next Permutation](https://leetcode.com/problems/next-permutation)
 
-[2018-04-01 Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
+[2018-04-01 4 Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 
-[2018-04-02 Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+[2018-04-02 7 Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
 
-[2018-04-03 Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
+[2018-04-03 9 Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 
-[2018-04-04 Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
+[2018-04-04 14 Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
