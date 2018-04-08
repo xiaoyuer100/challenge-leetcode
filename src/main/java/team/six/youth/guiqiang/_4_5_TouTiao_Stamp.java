@@ -2,7 +2,11 @@ package team.six.youth.guiqiang;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * 
+   某人有四张3分的邮票和三张5分的邮票，用这些邮票中的一张或若干张可以得到多少种不同的邮资？
+ *
+ */
 public class _4_5_TouTiao_Stamp {
 	public int CountPostage(int num3, int num5){
 		Map<Integer, Integer> countMap = new HashMap<Integer, Integer>();
