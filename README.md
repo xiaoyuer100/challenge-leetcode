@@ -18,3 +18,5 @@
 [2018-04-04 14 Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
 [2018-04-08]  邮票问题:某人有四张3分的邮票和三张5分的邮票，用这些邮票中的一张或若干张可以得到多少种不同的邮资？
+
+[2018-04-09 Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
