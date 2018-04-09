@@ -1,6 +1,12 @@
 package team.six.youth.xiaorui;
 
 public class addBinary67 {
+
+    public static void main (String args[]){
+        System.out.print(new addBinary67().new Solution().addBinary("1","0"));
+    }
+
+
     class Solution {
 
         public String addBinary(String a, String b) {
